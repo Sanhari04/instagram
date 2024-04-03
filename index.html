@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Instagram Clone</h1>
+        <button id="createPostBtn">Create Post</button>
+    </header>
+    <main id="feed">
+        <!-- Posts will be dynamically added here -->
+    </main>
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create Post</h2>
+            <input type="text" id="postCaption" placeholder="Enter your caption...">
+            <input type="file" id="postImage">
+            <button id="postSubmitBtn">Post</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
